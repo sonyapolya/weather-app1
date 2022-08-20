@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <form class="search-form" id="search-form">
+      <input
+        class="entcity"
+        type="text"
+        placeholder="Enter a city"
+        id="ent-city"
+      />
+      <button class="button">Search</button>
+    </form>
+    <h1>
+      Sumy
+    </h1>
+    <p class="time" id="current-time">
+      Sunday 11:03
+    </p>
+    <p class="temperature" id="temper">
+      ⛅ <span id="te">27</span>
+      <span class="units">
+        <sup>
+          <a class="link" id="ce" href="#">°C</a> |
+          <a class="link" id="fa" href="#">°F</a>
+        </sup>
+      </span>
+    </p>
+    <div class="days">
+      <ul>
+        <li>Mon</li>
+        <li>⛅</li>
+        <li>26°C</li>
+      </ul>
+      <ul>
+        <li>Tue</li>
+        <li>⛅</li>
+        <li>27°C</li>
+      </ul>
+      <ul>
+        <li>Wed</li>
+        <li>⛅</li>
+        <li>22°C</li>
+      </ul>
+      <ul>
+        <li>Thu</li>
+        <li>☀</li>
+        <li>23°C</li>
+      </ul>
+      <ul>
+        <li>Fri</li>
+        <li>☁</li>
+        <li>23°C</li>
+      </ul>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
