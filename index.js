@@ -40,7 +40,7 @@ if (weather[city] !== undefined) {
   );
 }*/
 
-//CurrentTime
+//СurrentTime
 let now = new Date();
 let days = [
   "Sunday",
